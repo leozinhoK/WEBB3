@@ -1,0 +1,45 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osk-font-smoothing: grayscale
+
+}
+
+:root {
+  --purple:#47ae3a;
+  --color-line:#51ff00;
+
+   /*cores para texto*/
+  --gray-light:#e1e1e6;
+  --gray-dark:#8d8d99;
+
+  /*cores para background*/
+  --color-bg-dark:#1d1818;
+  --color-bg-light:#262626;
+  --color-bg-blueLight:#262626;
+  --color-bg-blueDark:#rgb(26, 21, 66);
+ 
+ 
+  /*cores para as sombras*/
+  --color-shadow-blue:#15ff00ab;
+
+  /*cores para os contatos*/
+  --color-line-contato: #48ff00;
+  
+
+  font-size: 62.5%;
+}
+
+body{
+  background-color: #000000;
+  color: var(--dark);
+
+}
+
+body, input, textarea, button {
+  font-family: 'Titillium Web', sans-serif;
+font-size: 1rem;
+font-weight: 400;
+}
